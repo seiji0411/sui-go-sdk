@@ -8,8 +8,8 @@ import (
 
 	"github.com/machinebox/graphql"
 
-	"github.com/block-vision/sui-go-sdk/cryptography/scheme"
-	"github.com/block-vision/sui-go-sdk/mystenbcs"
+	"github.com/seiji0411/sui-go-sdk/cryptography/scheme"
+	"github.com/seiji0411/sui-go-sdk/mystenbcs"
 )
 
 type SignaturePubkeyPair struct {

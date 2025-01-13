@@ -10,9 +10,9 @@ import (
 	"github.com/machinebox/graphql"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/mystenbcs"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/seiji0411/sui-go-sdk/mystenbcs"
 )
 
 type Ed25519PublicKey struct {

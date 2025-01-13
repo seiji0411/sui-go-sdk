@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/signer"
-	"github.com/block-vision/sui-go-sdk/sui"
-	"github.com/block-vision/sui-go-sdk/utils"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/seiji0411/sui-go-sdk/signer"
+	"github.com/seiji0411/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/utils"
 )
 
 var ctx = context.Background()
@@ -78,8 +78,8 @@ func SuiDevInspectTransactionBlock() {
 		ReturnValues [2]interface{}
 	}
 	rsp, err := cli.SuiDevInspectTransactionBlock(ctx, models.SuiDevInspectTransactionBlockRequest{
-		Sender:   "0x4ae8be62692d1bbf892b657ee78a59954240ee0525f20a5b5687a70995cf0eff",
-		TxBytes:  "AAUBAFIMicbHjFZu7Q6/JPhUqMItj90GpvFq0B8Qja1/G6rqFSjPCgAAAAAgU+6E0DJf97dwaRV0MdseKxCPU97monpYtyfJSa7jKQAACKCGAQAAAAAAAAiAlpgAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYtKc8KAAAAACBhjSVWnhYSnxbZuJWgDlXi2j3pp7gqJJizx29rU/Ly+QEAy/R0ipZdRp6jo2zwzMV0O5bC0K5t7gdi7T7KZfrAf34EcG9vbBBnZXRfbGV2ZWwyX3JhbmdlAgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgNzdWkDU1VJAAf3FSwFkwSAzXQNcxG1uLRcb0iOOlOhHD90pvrDalLg1wZEQlVTREMGREJVU0RDAAUBAAABAQABAgABAwABBAA=",
+		Sender:  "0x4ae8be62692d1bbf892b657ee78a59954240ee0525f20a5b5687a70995cf0eff",
+		TxBytes: "AAUBAFIMicbHjFZu7Q6/JPhUqMItj90GpvFq0B8Qja1/G6rqFSjPCgAAAAAgU+6E0DJf97dwaRV0MdseKxCPU97monpYtyfJSa7jKQAACKCGAQAAAAAAAAiAlpgAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYtKc8KAAAAACBhjSVWnhYSnxbZuJWgDlXi2j3pp7gqJJizx29rU/Ly+QEAy/R0ipZdRp6jo2zwzMV0O5bC0K5t7gdi7T7KZfrAf34EcG9vbBBnZXRfbGV2ZWwyX3JhbmdlAgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgNzdWkDU1VJAAf3FSwFkwSAzXQNcxG1uLRcb0iOOlOhHD90pvrDalLg1wZEQlVTREMGREJVU0RDAAUBAAABAQABAgABAwABBAA=",
 	})
 
 	if err != nil {

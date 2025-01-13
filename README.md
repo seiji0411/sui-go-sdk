@@ -1,10 +1,10 @@
 # Sui-Go-SDK
 
 <p align="center">
-    <a href="https://github.com/block-vision/sui-go-sdk/blob/main/.github/workflows/ci.yml"><img src="https://github.com/block-vision/sui-go-sdk/actions/workflows/ci.yml/badge.svg"></a>
+    <a href="https://github.com/seiji0411/sui-go-sdk/blob/main/.github/workflows/ci.yml"><img src="https://github.com/seiji0411/sui-go-sdk/actions/workflows/ci.yml/badge.svg"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-red.svg"></a>
-    <a href="https://goreportcard.com/report/github.com/block-vision/sui-go-sdk"><img src="https://goreportcard.com/badge/github.com/securego/gosec"></a>
-    <a href="https://pkg.go.dev/github.com/block-vision/sui-go-sdk"> <img src="https://pkg.go.dev/badge/github.com/block-vision/sui-go-sdk.svg"></a>
+    <a href="https://goreportcard.com/report/github.com/seiji0411/sui-go-sdk"><img src="https://goreportcard.com/badge/github.com/securego/gosec"></a>
+    <a href="https://pkg.go.dev/github.com/seiji0411/sui-go-sdk"> <img src="https://pkg.go.dev/badge/github.com/seiji0411/sui-go-sdk.svg"></a>
     <a href="https://discord.gg/Re6prK86Tr"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true"></a>
 </p>
 
@@ -28,7 +28,7 @@ Powered by [SuiVision](https://suivision.xyz/) team.
 ### Install
 
 ```shell
-go get github.com/block-vision/sui-go-sdk
+go get github.com/seiji0411/sui-go-sdk
 ```
 
 ### Go Version
@@ -54,7 +54,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/block-vision/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/sui"
 )
 
 func main() {
@@ -71,8 +71,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/sui"
 )
 
 func main() {
@@ -114,11 +114,11 @@ package main
 import (
   "context"
   "fmt"
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/signer"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/signer"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -181,11 +181,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/signer"
-	"github.com/block-vision/sui-go-sdk/sui"
-	"github.com/block-vision/sui-go-sdk/utils"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/seiji0411/sui-go-sdk/signer"
+	"github.com/seiji0411/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -247,11 +247,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/signer"
-	"github.com/block-vision/sui-go-sdk/sui"
-	"github.com/block-vision/sui-go-sdk/utils"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/seiji0411/sui-go-sdk/signer"
+	"github.com/seiji0411/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -324,11 +324,11 @@ package main
 import (
   "context"
   "fmt"
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/signer"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/signer"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -398,10 +398,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/sui"
-	"github.com/block-vision/sui-go-sdk/utils"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/seiji0411/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -443,10 +443,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/sui"
-	"github.com/block-vision/sui-go-sdk/utils"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/seiji0411/sui-go-sdk/sui"
+	"github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -478,10 +478,10 @@ import (
   "context"
   "fmt"
 
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -526,10 +526,10 @@ import (
   "context"
   "fmt"
 
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -571,10 +571,10 @@ import (
   "context"
   "fmt"
 
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -639,10 +639,10 @@ import (
   "context"
   "fmt"
 
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -688,10 +688,10 @@ import (
   "context"
   "fmt"
 
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -741,10 +741,10 @@ package main
 
 import (
   "context"
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -789,10 +789,10 @@ package main
 
 import (
   "context"
-  "github.com/block-vision/sui-go-sdk/constant"
-  "github.com/block-vision/sui-go-sdk/models"
-  "github.com/block-vision/sui-go-sdk/sui"
-  "github.com/block-vision/sui-go-sdk/utils"
+  "github.com/seiji0411/sui-go-sdk/constant"
+  "github.com/seiji0411/sui-go-sdk/models"
+  "github.com/seiji0411/sui-go-sdk/sui"
+  "github.com/seiji0411/sui-go-sdk/utils"
 )
 
 func main() {
@@ -828,7 +828,7 @@ func main() {
 ```
 
 ## API Documentation
-The Go Client SDK API documentation is currently available at [pkg.go.dev](https://pkg.go.dev/github.com/block-vision/sui-go-sdk).
+The Go Client SDK API documentation is currently available at [pkg.go.dev](https://pkg.go.dev/github.com/seiji0411/sui-go-sdk).
 
 ## Contribution
 
@@ -838,7 +838,7 @@ The Go Client SDK API documentation is currently available at [pkg.go.dev](https
 
 ## Resources
 
-+ [SDK Examples](https://github.com/block-vision/sui-go-sdk/tree/main/examples)
++ [SDK Examples](https://github.com/seiji0411/sui-go-sdk/tree/main/examples)
 + [Sui](https://github.com/MystenLabs/sui)
 
 ## License

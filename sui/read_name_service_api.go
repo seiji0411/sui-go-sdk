@@ -4,8 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/block-vision/sui-go-sdk/common/httpconn"
-	"github.com/block-vision/sui-go-sdk/models"
+
+	"github.com/seiji0411/sui-go-sdk/common/httpconn"
+	"github.com/seiji0411/sui-go-sdk/models"
 	"github.com/tidwall/gjson"
 )
 

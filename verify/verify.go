@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/block-vision/sui-go-sdk/cryptography"
-	"github.com/block-vision/sui-go-sdk/cryptography/scheme"
-	"github.com/block-vision/sui-go-sdk/keypairs/ed25519"
-	"github.com/block-vision/sui-go-sdk/zklogin"
+	"github.com/seiji0411/sui-go-sdk/cryptography"
+	"github.com/seiji0411/sui-go-sdk/cryptography/scheme"
+	"github.com/seiji0411/sui-go-sdk/keypairs/ed25519"
+	"github.com/seiji0411/sui-go-sdk/zklogin"
 )
 
 func VerifyPersonalMessageSignature(message []byte, signature []byte, options *zklogin.ZkLoginPublicIdentifierOptions) (signer string, pass bool, err error) {

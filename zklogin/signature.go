@@ -5,7 +5,7 @@ import (
 
 	"github.com/fardream/go-bcs/bcs"
 
-	"github.com/block-vision/sui-go-sdk/mystenbcs"
+	"github.com/seiji0411/sui-go-sdk/mystenbcs"
 )
 
 func parseZkLoginSignature(signature interface{}) (*ZkLoginSignature, error) {

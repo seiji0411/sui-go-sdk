@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/mystenbcs"
+	"github.com/seiji0411/sui-go-sdk/constant"
+	"github.com/seiji0411/sui-go-sdk/mystenbcs"
 )
 
 type InputObjectKind map[string]interface{}

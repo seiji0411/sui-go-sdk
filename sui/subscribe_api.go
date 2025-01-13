@@ -3,10 +3,11 @@ package sui
 import (
 	"context"
 	"encoding/json"
-	"github.com/block-vision/sui-go-sdk/common/wsconn"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/tidwall/gjson"
 	"log"
+
+	"github.com/seiji0411/sui-go-sdk/common/wsconn"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/tidwall/gjson"
 )
 
 type ISubscribeAPI interface {

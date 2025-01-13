@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/block-vision/sui-go-sdk/cryptography/scheme"
-	"github.com/block-vision/sui-go-sdk/mystenbcs"
-	"github.com/block-vision/sui-go-sdk/zklogin"
+	"github.com/seiji0411/sui-go-sdk/cryptography/scheme"
+	"github.com/seiji0411/sui-go-sdk/mystenbcs"
+	"github.com/seiji0411/sui-go-sdk/zklogin"
 )
 
 type SignaturePubkeyPair struct {

@@ -4,11 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/gorilla/websocket"
-	"github.com/tidwall/gjson"
 	"log"
 	"time"
+
+	"github.com/gorilla/websocket"
+	"github.com/seiji0411/sui-go-sdk/models"
+	"github.com/tidwall/gjson"
 )
 
 type WsConn struct {
